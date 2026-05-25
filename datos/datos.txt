@@ -1,0 +1,1 @@
+Directorio exclusivo para datos en formato CSV
