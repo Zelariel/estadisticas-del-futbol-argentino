@@ -6,7 +6,7 @@
 # >> Cargar el archivo CSV
 # Usamos ruta relativa para garantizar reproducibilidad en Google Colab
 
-datos <- read.csv("datos/dataset.csv")
+datos <- read.csv("../datos/dataset.csv")
 
 # >> Calcular goles por partido (necesario para los gráficos)
 # Dividimos goles totales entre partidos jugados y redondeamos
