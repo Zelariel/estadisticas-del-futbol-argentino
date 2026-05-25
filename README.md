@@ -17,19 +17,20 @@ El proyecto se basa en ejecutar un script de código R que lee datos desde un ar
 - Google Colab
 
 ## Estructura del proyecto
-
+```
 estadisticas-del-futbol-argentino/
 │
 ├── datos/
-|        datos.csv
-├── scripts/ 
-|        script.r
-├── resultados/ 
-|        grafico_comparativa.png
-|        grafico_goles_totales.png
-|        grafico_partidos_ganados.png
+│   └── datos.csv
+├── scripts/
+│   └── script.r
+├── resultados/
+│   ├── grafico_comparativa.png
+│   ├── grafico_goles_totales.png
+│   └── grafico_partidos_ganados.png
 ├── README.md
 └── .gitignore
+```
 
 ## Cómo usarlo
 
