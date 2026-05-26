@@ -17,55 +17,53 @@ El proyecto se basa en ejecutar un script de código R que lee datos desde un ar
 - Google Colab
 
 ## Estructura del proyecto
-
+```
 estadisticas-del-futbol-argentino/
 │
-├── datos/ datos.csv
-├── scripts/ script.r
-├── resultados/ 
+├── datos/
+│   └── datos.csv
+├── scripts/
+│   └── script.r
+├── resultados/
+│   ├── grafico_comparativa.png
+│   ├── grafico_goles_totales.png
+│   └── grafico_partidos_ganados.png
 ├── README.md
 └── .gitignore
-
-\## Cómo usarlo
-
-1. Clonar el repositorio:
-
-```bash
-
-git clone https://github.com/Zelariel/estadisticas-del-futbol-argentino.git
-
 ```
 
-2. Abrir el proyecto en RStudio
+## Cómo usarlo
 
-3. Instalar las dependencias necesarias:
+1. Instalar R y RStudio
+  - R -> [The R Project](https://www.r-project.org/)
+  - RStudio -> [RStudio IDE](https://posit.co/downloads)
 
+2. Descargar el archivo 'script.R' y el archivo 'dataset.csv'
+
+3. Utilizar misma estructura de carpetas para que funcione o modificar la ruta relativa dentro del 'script.R' para que detecte el archivo.
+
+4\. Abrir RStudio y ejecutar el script:
+* Mediante comandos en consola:
 ```r
 
-install.packages("tidyverse")
-
-install.packages("ggplot2")
+source("script.R")
 
 ```
-
-4\. Ejecutar el script:
-
-```r
-
-source("analisis.R")
-
-```
+* O desde interfaz gráfica:
+  - File -> Open file...
+  - CTRL + O
 
 ## Posibles mejoras
 
 - Interfaz gráfica
 - Exportación automática a Excel
 - Dashboard interactivo
-- Más tipos de análisis estadísticos
+- Más opciones de graficos 
+- Mejores gráficos a través de la utilización de librerías externas
 
-## Autor
+## Autores
 
-Desarrollado por 
+Desarrollado por estudiantes de la carrera "Tecnicatura superior en programación" de la UTN en Argentina:
 
-
-
+- Nehuel Mendoza (Comisión: M26 C1-27)
+- Burgos Matías (Comisión: M26 C1-20)
