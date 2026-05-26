@@ -11,6 +11,10 @@ El proyecto se basa en ejecutar un script de código R que lee datos desde un ar
 - Cantidad de goles por partido
 - Genera gráficos comparativos de rendimiento entre equipos
 
+## Origen de los datos
+
+El dataset utilizado fue generado por ChatGPT, utilizando información de equipos reales de fútbol argentino. Los partidos ganados, goles y demás datos fueron inventados pero manteniendo el status real de cada equipo de fútbol. Es decir, que por ej. River Plate es un buen equipo, por ende en el dataset se ve reflejado en sus resultados, mientras que otros equipos menos conocidos o no tan buenos competitivamente, tienen resultados más acordes, manteniendo el paralelismo con el rendimiento de los equipos en la vida real.
+
 ## Tecnologías utilizadas
 
 - R
@@ -21,13 +25,16 @@ El proyecto se basa en ejecutar un script de código R que lee datos desde un ar
 estadisticas-del-futbol-argentino/
 │
 ├── datos/
-│   └── datos.csv
+│   ├── dataset.csv
+│   └── datos.txt
 ├── scripts/
-│   └── script.r
+│   ├── graficos.R
+│   └── sctipts.txt
 ├── resultados/
 │   ├── grafico_comparativa.png
 │   ├── grafico_goles_totales.png
-│   └── grafico_partidos_ganados.png
+│   ├── grafico_partidos_ganados.png
+│   └── resultados.txt
 ├── README.md
 └── .gitignore
 ```
@@ -46,7 +53,7 @@ estadisticas-del-futbol-argentino/
 * Mediante comandos en consola:
 ```r
 
-source("script.R")
+source("graficos.R")
 
 ```
 * O desde interfaz gráfica:
@@ -63,7 +70,7 @@ source("script.R")
 
 ## Autores
 
-Desarrollado por estudiantes de la carrera "Tecnicatura superior en programación" de la UTN en Argentina:
+Desarrollado por estudiantes de la carrera "Tecnicatura superior en programación" de la UTN, Argentina:
 
 - Nehuel Mendoza (Comisión: M26 C1-27)
 - Burgos Matías (Comisión: M26 C1-20)
