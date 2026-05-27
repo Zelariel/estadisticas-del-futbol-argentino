@@ -1,1 +1,13 @@
-*.txt
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+.ipynb_checkpoints/
+
+*.tmp
+*.log
+
+data/raw/
+output/
+results/
