@@ -29,6 +29,7 @@ estadisticas-del-futbol-argentino/
 │   └── datos.txt
 ├── scripts/
 │   ├── graficos.R
+│   ├── script.R
 │   └── sctipts.txt
 ├── resultados/
 │   ├── grafico_comparativa.png
@@ -53,6 +54,7 @@ estadisticas-del-futbol-argentino/
 * Mediante comandos en consola:
 ```r
 
+source("script.R")
 source("graficos.R")
 
 ```
